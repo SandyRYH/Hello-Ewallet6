@@ -4,7 +4,6 @@ import lombok.Data;
 
 @Data
 public class DashboardRequest {
-    private String account_number;
-    private String full_name;
-    private int balance;
+    private String id;
+    private String password;
 }
